@@ -28,3 +28,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
     - run: ls
     - run: npm run notify
+      env:
+        GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
