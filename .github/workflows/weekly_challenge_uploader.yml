@@ -23,4 +23,4 @@ jobs:
       run: npm install
     - run: npm run notify
       env:
-        GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
+        GITHUB_TOKEN: ${{ env.GITHUB_TOKEN }}
