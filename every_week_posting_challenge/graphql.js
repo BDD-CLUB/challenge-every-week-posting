@@ -64,7 +64,7 @@ exports.getNotifyDiscussions = async function getNotifyDiscussions() {
 exports.createDiscussion = async function createDiscussion(title, body) {
   return await graphql(
     `mutation {
-            createDiscussion(input: {repositoryId: "R_kgDOJjgAhg", categoryId: "DIC_kwDOJjgAhs4CWgj1", body: "${body}", title: "${title}"}) {
+            createDiscussion(input: {repositoryId: "R_kgDOJjgAhg", categoryId: "DIC_kwDOJjgAhs4CWp1V", body: "${body}", title: "${title}"}) {
                 discussion {
                   id
                 }
