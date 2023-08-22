@@ -22,10 +22,6 @@ jobs:
     - name: echo env
       env:
         GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
-      run: |
-        echo "GITHUB_TOKEN=${GITHUB_TOKEN}" >> $GITHUB_ENV
-        ls
+      run: echo "GITHUB_TOKEN=${GITHUB_TOKEN}" >> $GITHUB_ENV
     - name: Notify
-      run: |
-        ls
-        npm run notify
+      run: npm run notify
