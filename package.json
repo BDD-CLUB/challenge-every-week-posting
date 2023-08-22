@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "notify": "node every_week_posting_challenge/notify.js"
+  },
+  "dependencies": {
+    "@octokit/graphql": "^7.0.1",
+    "graphql": "^16.8.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
