@@ -22,6 +22,7 @@ jobs:
     - run: |
         echo "GITHUB_TOKEN=$GITHUB_TOKEN" >> .env
         pwd
+        ls
       env:
         GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
     - run: npm run notify
