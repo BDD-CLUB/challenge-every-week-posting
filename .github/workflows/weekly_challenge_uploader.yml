@@ -10,15 +10,15 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
-    strategy:
-      matrix:
-        node-version: [14.x, 16.x, 18.x]
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
+        node-version: 18.x
+    - name: Install Dependencies
+      run: npm install
     - run: npm run notify
