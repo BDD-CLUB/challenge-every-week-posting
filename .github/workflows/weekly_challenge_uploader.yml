@@ -19,14 +19,7 @@ jobs:
         node-version: 18.x
     - name: Install Dependencies
       run: npm install
-    - run: |
-        touch .env
-        echo GITHUB_TOKEN=${{ secrets.USER_TOKEN }} >> .env
-        pwd
-        ls
-      env:
-        GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
-    - run: ls
-    - run: npm run notify
+    - name: Notify
+      run: npm run notify
       env:
         GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
