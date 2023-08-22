@@ -6,9 +6,7 @@
     "@octokit/graphql": "^7.0.1",
     "graphql": "^16.8.0",
     "moment": "^2.29.4",
-    "moment-timezone": "^0.5.43"
-  },
-  "devDependencies": {
+    "moment-timezone": "^0.5.43",
     "dotenv": "^16.3.1"
   }
 }
