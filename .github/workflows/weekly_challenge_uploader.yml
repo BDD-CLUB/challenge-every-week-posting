@@ -20,6 +20,7 @@ jobs:
     - name: Install Dependencies
       run: npm install
     - run: |
+        touch .env
         echo GITHUB_TOKEN=${{ secrets.USER_TOKEN }} >> .env
         pwd
         ls
