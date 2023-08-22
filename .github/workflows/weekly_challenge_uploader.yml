@@ -22,3 +22,5 @@ jobs:
     - name: Install Dependencies
       run: npm install
     - run: npm run notify
+      env:
+        GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
