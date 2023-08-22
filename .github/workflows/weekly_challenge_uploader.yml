@@ -8,8 +8,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
 
     steps:
     - name: Checkout
@@ -22,4 +20,6 @@ jobs:
     - name: Install Dependencies
       run: npm install
     - run: echo "GITHUB_TOKEN=$GITHUB_TOKEN" >> .env
+      env:
+        GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
     - run: npm run notify
