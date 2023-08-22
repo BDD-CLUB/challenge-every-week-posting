@@ -1,0 +1,24 @@
+name: 키글챌 주간 통계 자동 업로더
+
+on:
+  schedule:
+    - cron: "1 15 * * 0"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x, 18.x]
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    - run: npm run notify
