@@ -8,6 +8,8 @@ exports.members = {
   pipisebastian: '장서윤',
   'amaran-th': '송세연',
   '02ggang9': '이수빈',
+  '1jeongg': '남원정',
+  KwonNaeHyeon: '권내현'
 }
 
 exports.activeMembers = [
@@ -18,4 +20,6 @@ exports.activeMembers = [
   'pipisebastian',
   'amaran-th',
   '02ggang9',
+  '1jeongg',
+  'KwonNaeHyeon'
 ]
