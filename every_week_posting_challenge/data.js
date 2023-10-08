@@ -9,7 +9,10 @@ exports.members = {
   'amaran-th': '송세연',
   '02ggang9': '이수빈',
   '1jeongg': '남원정',
-  KwonNaeHyeon: '권내현'
+  KwonNaeHyeon: '권내현',
+  'sososo0':'박소현',
+  'stopmin':'정지민',
+  'mun-kyeong':'김문경'
 }
 
 exports.activeMembers = [
@@ -18,5 +21,8 @@ exports.activeMembers = [
   'amaran-th',
   '02ggang9',
   '1jeongg',
-  'KwonNaeHyeon'
+  'KwonNaeHyeon',
+  'sososo0',
+  'stopmin',
+  'mun-kyeong'
 ]
