@@ -5,7 +5,7 @@ exports.getDiscussions = async function getDiscussions() {
   return await graphql(
     `
       {
-        repository(owner: "amaran-th", name: "every-week-posting-challenge") {
+        repository(owner: "BDD-CLUB", name: "every-week-posting-challenge") {
           discussions(first: 100) {
             totalCount
             edges {
@@ -43,7 +43,7 @@ exports.getNotifyDiscussions = async function getNotifyDiscussions() {
   return await graphql(
     `
       {
-        repository(owner: "amaran-th", name: "every-week-posting-challenge") {
+        repository(owner: "BDD-CLUB", name: "every-week-posting-challenge") {
           discussions(first: 100, categoryId: "DIC_kwDOJjgAhs4CWp1V") {
             totalCount
           }
