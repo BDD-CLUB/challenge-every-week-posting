@@ -79,7 +79,7 @@ function makeNotPostingMembers(result) {
   let notPostingMembers = []
   activeMembers.map(activeMember => {
     if (result[members[activeMember]] === 0)
-      notPostingMembers.push(members[activeMember])
+      notPostingMembers.push(`${members[activeMember]}(@${activeMember})`)
   })
   return notPostingMembers
 }
