@@ -16,6 +16,7 @@ exports.members = {
 }
 
 exports.activeMembers = [
+  'pipisebastian',
   'pnudpwls1103',
   'shkisme',
   'amaran-th',
