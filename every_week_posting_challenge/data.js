@@ -16,15 +16,10 @@ exports.members = {
 }
 
 exports.activeMembers = [
-  'pipisebastian',
-  'pnudpwls1103',
   'shkisme',
   'amaran-th',
   '02ggang9',
   '1jeongg',
-  'KwonNaeHyeon',
-  'sososo0',
   'stopmin',
   'mun-kyeong',
-  'chairoi'
 ]
