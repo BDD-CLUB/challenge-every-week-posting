@@ -12,7 +12,8 @@ exports.members = {
   KwonNaeHyeon: '권내현',
   'sososo0':'박소현',
   'stopmin':'정지민',
-  'mun-kyeong':'김문경'
+  'mun-kyeong':'김문경',
+  'gusah009':'정현모'
 }
 
 exports.activeMembers = [
@@ -22,4 +23,5 @@ exports.activeMembers = [
   '1jeongg',
   'stopmin',
   'mun-kyeong',
+  'gusah009',
 ]
