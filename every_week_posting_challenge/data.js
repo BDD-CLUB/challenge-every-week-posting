@@ -13,7 +13,8 @@ exports.members = {
   'sososo0':'박소현',
   'stopmin':'정지민',
   'mun-kyeong':'김문경',
-  'gusah009':'정현모'
+  'gusah009':'정현모',
+  'jojaeng2':'조정현'
 }
 
 exports.activeMembers = [
@@ -24,4 +25,5 @@ exports.activeMembers = [
   'stopmin',
   'mun-kyeong',
   'gusah009',
+  'jojaeng2',
 ]
