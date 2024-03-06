@@ -55,7 +55,7 @@ async function makeTitle(last_week, now) {
   const notificationCount = repository.discussions.totalCount
   const yesterday = now.clone().subtract(1, 'd')
 
-  return `키글챌 ${notificationCount + 1}회차 통계(${last_week.format(
+  return `비글챌 ${notificationCount + 1}회차 통계(${last_week.format(
     'MM월 DD일'
   )} ~ ${yesterday.format('MM월 DD일')})`
 }
