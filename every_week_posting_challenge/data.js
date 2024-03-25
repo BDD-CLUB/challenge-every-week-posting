@@ -15,7 +15,8 @@ exports.members = {
   'mun-kyeong':'김문경',
   'gusah009':'정현모',
   'jojaeng2':'조정현',
-  'hyun98':'조현우'
+  'hyun98':'조현우',
+  'pykido':'김태윤'
 }
 
 exports.activeMembers = [
@@ -27,5 +28,6 @@ exports.activeMembers = [
   'mun-kyeong',
   'gusah009',
   'jojaeng2',
-  'hyun98'
+  'hyun98',
+  'pykido'
 ]
