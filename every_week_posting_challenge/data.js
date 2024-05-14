@@ -31,4 +31,5 @@ exports.activeMembers = [
   'jojaeng2',
   'hyun98',
   'pykido',
+  'hunsy9',
 ]
