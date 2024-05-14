@@ -17,7 +17,6 @@ exports.members = {
   'jojaeng2':'조정현',
   'hyun98':'조현우',
   'pykido':'김태윤',
-  'hunsy9':'유승훈',
 }
 
 exports.activeMembers = [
@@ -31,5 +30,4 @@ exports.activeMembers = [
   'jojaeng2',
   'hyun98',
   'pykido',
-  'hunsy9',
 ]
