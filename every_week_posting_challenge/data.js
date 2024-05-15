@@ -25,7 +25,6 @@ exports.activeMembers = [
   '02ggang9',
   '1jeongg',
   'stopmin',
-  'mun-kyeong',
   'gusah009',
   'jojaeng2',
   'hyun98',
