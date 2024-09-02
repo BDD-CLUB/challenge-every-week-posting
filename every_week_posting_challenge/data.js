@@ -20,7 +20,6 @@ exports.members = {
 }
 
 exports.activeMembers = [
-  'shkisme',
   'amaran-th',
   '1jeongg',
   'stopmin',
