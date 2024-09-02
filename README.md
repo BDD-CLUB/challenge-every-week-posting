@@ -8,18 +8,8 @@
 <table>
   <tr>
     <td align="center" width="200px">
-      <a href="https://github.com/shkisme" target="_blank">
-        <img src="https://avatars.githubusercontent.com/u/92802207?v=4" alt="보름 프로필" />
-      </a>
-    </td>
-    <td align="center" width="200px">
       <a href="https://github.com/amaran-th" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/81465068?s=64&v=4" alt="아마란스 프로필" />
-      </a>
-    </td>
-    <td align="center" width="200px">
-      <a href="https://github.com/02ggang9" target="_blank">
-        <img src="https://avatars.githubusercontent.com/u/105693150?v=4" alt="짱구 프로필" />
       </a>
     </td>
     <td align="center" width="200px">
@@ -35,18 +25,8 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/shkisme" target="_blank">
-        보름
-      </a>
-    </td>
-    <td align="center">
       <a href="https://github.com/amaran-th" target="_blank">
         아마란스
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/02ggang9" target="_blank">
-        짱구
       </a>
     </td>
     <td align="center">
@@ -62,11 +42,6 @@
   </tr>
   <tr>
     <td align="center" width="200px">
-      <a href="https://github.com/mun-kyeong" target="_blank">
-        <img src="https://avatars.githubusercontent.com/u/96461334?v=4" alt="kangoll 프로필" />
-      </a>
-    </td>
-    <td align="center" width="200px">
       <a href="https://github.com/gusah009" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/26597702?v=4" alt="미니언 프로필" />
       </a>
@@ -77,22 +52,12 @@
       </a>
     </td>
     <td align="center" width="200px">
-      <a href="https://github.com/hyun98" target="_blank">
-        <img src="https://avatars.githubusercontent.com/u/68914294?v=4" alt="Henu 프로필" />
-      </a>
-    </td>
-    <td align="center" width="200px">
       <a href="https://github.com/pykido" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/77539625?v=4" alt="아트 프로필" />
       </a>
     </td>
   </tr>
   <tr>
-    <td align="center">
-      <a href="https://github.com/mun-kyeong" target="_blank">
-        kangoll
-      </a>
-    </td>
     <td align="center">
       <a href="https://github.com/gusah009" target="_blank">
         미니언
@@ -101,11 +66,6 @@
     <td align="center">
       <a href="https://github.com/jojaeng2" target="_blank">
         초보
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/hyun98" target="_blank">
-        Henu
       </a>
     </td>
     <td align="center">
