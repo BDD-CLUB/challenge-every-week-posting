@@ -9,7 +9,6 @@ exports.members = {
 
 exports.activeMembers = [
   'amaran-th',
-  '1jeongg',
   'stopmin',
   'jojaeng2',
   'pykido',
