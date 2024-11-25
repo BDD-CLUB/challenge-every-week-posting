@@ -9,6 +9,5 @@ exports.members = {
 
 exports.activeMembers = [
   'stopmin',
-  'jojaeng2',
   'pykido',
 ]
