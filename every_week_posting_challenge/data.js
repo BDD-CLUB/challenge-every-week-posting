@@ -8,6 +8,4 @@ exports.members = {
 }
 
 exports.activeMembers = [
-  'stopmin',
-  'pykido',
 ]
