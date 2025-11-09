@@ -3,5 +3,7 @@
 - 주간 통계 결과를 산출하여 디스커션을 게시해주는 프로그램
 - 디스커션을 활용한 글 커뮤니티
 
+[블로그 글 공유를 위한 디스커션](https://github.com/BDD-CLUB/challenge-every-week-posting/discussions)
+
 > 본 챌린지는 2024년 12월 부로 종료되었습니다.
 
